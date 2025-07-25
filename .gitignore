@@ -1,6 +1,6 @@
-# Ignore Python virtual environment
+# Ignore virtual environments
+qanda/
 Lib/
-Library/
 Scripts/
 include/
 share/
@@ -8,8 +8,18 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
-venv/
-*.sqlite3
-.DS_Store
+
+# Ignore data files
+*.db
 *.log
+*.sqlite3
+
+# Ignore system or config files
+.env
+.DS_Store
+Thumbs.db
+
+# Ignore big binaries
+*.dll
+*.lib
+*.exe
