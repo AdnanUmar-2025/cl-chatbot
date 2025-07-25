@@ -1,0 +1,197 @@
+{
+  "build": "py312h275cf98_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0",
+    "python_abi 3.12.* *_cp312",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\MI\\anaconda3\\pkgs\\cymem-2.0.11-py312h275cf98_0",
+  "files": [
+    "Lib/site-packages/cymem-2.0.11.dist-info/INSTALLER",
+    "Lib/site-packages/cymem-2.0.11.dist-info/LICENSE",
+    "Lib/site-packages/cymem-2.0.11.dist-info/METADATA",
+    "Lib/site-packages/cymem-2.0.11.dist-info/RECORD",
+    "Lib/site-packages/cymem-2.0.11.dist-info/REQUESTED",
+    "Lib/site-packages/cymem-2.0.11.dist-info/WHEEL",
+    "Lib/site-packages/cymem-2.0.11.dist-info/direct_url.json",
+    "Lib/site-packages/cymem-2.0.11.dist-info/top_level.txt",
+    "Lib/site-packages/cymem/__init__.pxd",
+    "Lib/site-packages/cymem/__init__.py",
+    "Lib/site-packages/cymem/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/cymem/__pycache__/about.cpython-312.pyc",
+    "Lib/site-packages/cymem/about.py",
+    "Lib/site-packages/cymem/cymem.cp312-win_amd64.pyd",
+    "Lib/site-packages/cymem/cymem.pxd",
+    "Lib/site-packages/cymem/cymem.pyx",
+    "Lib/site-packages/cymem/tests/__init__.py",
+    "Lib/site-packages/cymem/tests/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/cymem/tests/__pycache__/test_import.cpython-312.pyc",
+    "Lib/site-packages/cymem/tests/test_import.py"
+  ],
+  "fn": "cymem-2.0.11-py312h275cf98_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\MI\\anaconda3\\pkgs\\cymem-2.0.11-py312h275cf98_0",
+    "type": 1
+  },
+  "md5": "2ded58ed22eae5c53b007c47d6ffeb20",
+  "name": "cymem",
+  "package_tarball_full_path": "C:\\Users\\MI\\anaconda3\\pkgs\\cymem-2.0.11-py312h275cf98_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/cymem-2.0.11.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/cymem-2.0.11.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "2cfcc6b46277cb271b890785eb70b80ffeebb84f64e845224089f4fcf90baf46",
+        "sha256_in_prefix": "2cfcc6b46277cb271b890785eb70b80ffeebb84f64e845224089f4fcf90baf46",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "Lib/site-packages/cymem-2.0.11.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b698ffe180192d0f399699956ad928a69d605b36c784d396a5aa461e1adef038",
+        "sha256_in_prefix": "b698ffe180192d0f399699956ad928a69d605b36c784d396a5aa461e1adef038",
+        "size_in_bytes": 8757
+      },
+      {
+        "_path": "Lib/site-packages/cymem-2.0.11.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d8df812e20aa7cee43902d1130a2b319103b3521ceda87c4719e39c0ba66ed6c",
+        "sha256_in_prefix": "d8df812e20aa7cee43902d1130a2b319103b3521ceda87c4719e39c0ba66ed6c",
+        "size_in_bytes": 1463
+      },
+      {
+        "_path": "Lib/site-packages/cymem-2.0.11.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/cymem-2.0.11.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7119920460fe725f7c2a4b8730daaff4073d2fdfd5a93bdc058c2922fc4dd1c8",
+        "sha256_in_prefix": "7119920460fe725f7c2a4b8730daaff4073d2fdfd5a93bdc058c2922fc4dd1c8",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "Lib/site-packages/cymem-2.0.11.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2b426fbfcfb19be7e0f8365d33e0ecca8343f7975ed746aa0fe0959a7c23312c",
+        "sha256_in_prefix": "2b426fbfcfb19be7e0f8365d33e0ecca8343f7975ed746aa0fe0959a7c23312c",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "Lib/site-packages/cymem-2.0.11.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7426300855938ff344ed9f7316bacaa80716b940ad839db329123897f5abafb4",
+        "sha256_in_prefix": "7426300855938ff344ed9f7316bacaa80716b940ad839db329123897f5abafb4",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "Lib/site-packages/cymem/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/cymem/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4993e273282ba34735ae1dd063e88ddb5668ae662b4817a29b54760d279a387e",
+        "sha256_in_prefix": "4993e273282ba34735ae1dd063e88ddb5668ae662b4817a29b54760d279a387e",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "Lib/site-packages/cymem/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8a70a2075f7cb2ef2e23dcb399915c5a50e05571e16d16e30fef019f8b19b987",
+        "sha256_in_prefix": "8a70a2075f7cb2ef2e23dcb399915c5a50e05571e16d16e30fef019f8b19b987",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "Lib/site-packages/cymem/__pycache__/about.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c07e3c041345ce1fc0bba3c95992eed63e311fc0a8d463da965fc7b7b05ad884",
+        "sha256_in_prefix": "c07e3c041345ce1fc0bba3c95992eed63e311fc0a8d463da965fc7b7b05ad884",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "Lib/site-packages/cymem/about.py",
+        "path_type": "hardlink",
+        "sha256": "02024f44afe5e9e313ea0ce7839272335a58c94fe7d04f9d57691f589ec3ae08",
+        "sha256_in_prefix": "02024f44afe5e9e313ea0ce7839272335a58c94fe7d04f9d57691f589ec3ae08",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "Lib/site-packages/cymem/cymem.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "91cb35abdf51a080e2dbb6d99a38b9247bebff91ce946c6b7002e08be308e1b7",
+        "sha256_in_prefix": "91cb35abdf51a080e2dbb6d99a38b9247bebff91ce946c6b7002e08be308e1b7",
+        "size_in_bytes": 71168
+      },
+      {
+        "_path": "Lib/site-packages/cymem/cymem.pxd",
+        "path_type": "hardlink",
+        "sha256": "ddae95c96910f9de867a550e18db5d4c0020da4b162a35bd99432ee54cd1db37",
+        "sha256_in_prefix": "ddae95c96910f9de867a550e18db5d4c0020da4b162a35bd99432ee54cd1db37",
+        "size_in_bytes": 779
+      },
+      {
+        "_path": "Lib/site-packages/cymem/cymem.pyx",
+        "path_type": "hardlink",
+        "sha256": "c5cfdcb50dfdffa284531c748e34d66da788f51f37ef9cf2a37033a1f9fcd91b",
+        "sha256_in_prefix": "c5cfdcb50dfdffa284531c748e34d66da788f51f37ef9cf2a37033a1f9fcd91b",
+        "size_in_bytes": 5592
+      },
+      {
+        "_path": "Lib/site-packages/cymem/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/cymem/tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e14562a994a04538a312e240597ba7e670b9bb6ecb15e9d2315a7ed11cad3543",
+        "sha256_in_prefix": "e14562a994a04538a312e240597ba7e670b9bb6ecb15e9d2315a7ed11cad3543",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "Lib/site-packages/cymem/tests/__pycache__/test_import.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0b12cd2ef6cd454a7ff501e62c8a49d27045f577f3cd425419c6e48ee1a6be3",
+        "sha256_in_prefix": "d0b12cd2ef6cd454a7ff501e62c8a49d27045f577f3cd425419c6e48ee1a6be3",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "Lib/site-packages/cymem/tests/test_import.py",
+        "path_type": "hardlink",
+        "sha256": "40fe15845b3ad7c2de889bc14847d987775e1136d6c6ece2af59847cbf9f395d",
+        "sha256_in_prefix": "40fe15845b3ad7c2de889bc14847d987775e1136d6c6ece2af59847cbf9f395d",
+        "size_in_bytes": 263
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8f84543a165bd8d5c3e09b1680188345bfe5854e7e81fcbfaed61805ab788e49",
+  "size": 43399,
+  "subdir": "win-64",
+  "timestamp": 1737126303000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/cymem-2.0.11-py312h275cf98_0.conda",
+  "version": "2.0.11"
+}

@@ -1,0 +1,15 @@
+# Ignore Python virtual environment
+Lib/
+Library/
+Scripts/
+include/
+share/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+*.sqlite3
+.DS_Store
+*.log

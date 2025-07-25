@@ -1,0 +1,209 @@
+{
+  "build": "pyhecae5ae_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pydantic >=1.7.4,!=1.8,!=1.8.1,<3.0.0",
+    "python >=3.9",
+    "srsly >=2.4.0,<3.0.0",
+    "typing_extensions >=3.7.4.1,<5.0.0"
+  ],
+  "extracted_package_dir": "C:\\Users\\MI\\anaconda3\\pkgs\\confection-0.1.5-pyhecae5ae_0",
+  "files": [
+    "Lib/site-packages/confection-0.1.5.dist-info/INSTALLER",
+    "Lib/site-packages/confection-0.1.5.dist-info/LICENSE",
+    "Lib/site-packages/confection-0.1.5.dist-info/METADATA",
+    "Lib/site-packages/confection-0.1.5.dist-info/RECORD",
+    "Lib/site-packages/confection-0.1.5.dist-info/REQUESTED",
+    "Lib/site-packages/confection-0.1.5.dist-info/WHEEL",
+    "Lib/site-packages/confection-0.1.5.dist-info/direct_url.json",
+    "Lib/site-packages/confection-0.1.5.dist-info/top_level.txt",
+    "Lib/site-packages/confection-0.1.5.dist-info/zip-safe",
+    "Lib/site-packages/confection/__init__.py",
+    "Lib/site-packages/confection/py.typed",
+    "Lib/site-packages/confection/tests/__init__.py",
+    "Lib/site-packages/confection/tests/conftest.py",
+    "Lib/site-packages/confection/tests/test_config.py",
+    "Lib/site-packages/confection/tests/test_frozen_structures.py",
+    "Lib/site-packages/confection/tests/util.py",
+    "Lib/site-packages/confection/util.py",
+    "Lib/site-packages/confection/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/confection/tests/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/confection/tests/__pycache__/conftest.cpython-312.pyc",
+    "Lib/site-packages/confection/tests/__pycache__/test_config.cpython-312.pyc",
+    "Lib/site-packages/confection/tests/__pycache__/test_frozen_structures.cpython-312.pyc",
+    "Lib/site-packages/confection/tests/__pycache__/util.cpython-312.pyc",
+    "Lib/site-packages/confection/__pycache__/util.cpython-312.pyc"
+  ],
+  "fn": "confection-0.1.5-pyhecae5ae_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\MI\\anaconda3\\pkgs\\confection-0.1.5-pyhecae5ae_0",
+    "type": 1
+  },
+  "md5": "cb7c903ea9e763e1e026d8633ae81964",
+  "name": "confection",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\MI\\anaconda3\\pkgs\\confection-0.1.5-pyhecae5ae_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/confection-0.1.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/confection-0.1.5.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f7f74ea82f9a10d7ce2ba05dd7e460c8c2bb42a6cc7d9ae71ab35661b5f71c9b",
+        "sha256_in_prefix": "f7f74ea82f9a10d7ce2ba05dd7e460c8c2bb42a6cc7d9ae71ab35661b5f71c9b",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "site-packages/confection-0.1.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ff833f1264c15be3a03782b100921288efb2956bed8e90267246fa73ee3df3ee",
+        "sha256_in_prefix": "ff833f1264c15be3a03782b100921288efb2956bed8e90267246fa73ee3df3ee",
+        "size_in_bytes": 19593
+      },
+      {
+        "_path": "site-packages/confection-0.1.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d44677945019e8afa49bb3b031beee5fed014363d3b9b0126875961a78fe1c10",
+        "sha256_in_prefix": "d44677945019e8afa49bb3b031beee5fed014363d3b9b0126875961a78fe1c10",
+        "size_in_bytes": 1838
+      },
+      {
+        "_path": "site-packages/confection-0.1.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/confection-0.1.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "sha256_in_prefix": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/confection-0.1.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "caa6d297a48731176f6995cab16cf9995002bebafccae2fc599c5088bf1ffaaf",
+        "sha256_in_prefix": "caa6d297a48731176f6995cab16cf9995002bebafccae2fc599c5088bf1ffaaf",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/confection-0.1.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "216d0c8253e5baa5673f6e9b0f6c7b6036ae04d12069f722ca394a77bb367733",
+        "sha256_in_prefix": "216d0c8253e5baa5673f6e9b0f6c7b6036ae04d12069f722ca394a77bb367733",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/confection-0.1.5.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/confection/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c2e86db314fa6859345c4a2ef4ff8c9b12272944b96bb784821088caf6d7607b",
+        "sha256_in_prefix": "c2e86db314fa6859345c4a2ef4ff8c9b12272944b96bb784821088caf6d7607b",
+        "size_in_bytes": 47656
+      },
+      {
+        "_path": "site-packages/confection/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/confection/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/confection/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "d3a4089816c6c44ee902fdf1f0931e84937dc6f183f18f67ef532161020c3766",
+        "sha256_in_prefix": "d3a4089816c6c44ee902fdf1f0931e84937dc6f183f18f67ef532161020c3766",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "site-packages/confection/tests/test_config.py",
+        "path_type": "hardlink",
+        "sha256": "a649c648b8a1a2d33b88b8b42987827ce4f1d6e1d6c5a5dc2960b28f1ccb63f2",
+        "sha256_in_prefix": "a649c648b8a1a2d33b88b8b42987827ce4f1d6e1d6c5a5dc2960b28f1ccb63f2",
+        "size_in_bytes": 54505
+      },
+      {
+        "_path": "site-packages/confection/tests/test_frozen_structures.py",
+        "path_type": "hardlink",
+        "sha256": "389caa93ec58e21bbcc83ac06d7f1c4a9bc0f4594ba65e3d1884a1d5c990d9c6",
+        "sha256_in_prefix": "389caa93ec58e21bbcc83ac06d7f1c4a9bc0f4594ba65e3d1884a1d5c990d9c6",
+        "size_in_bytes": 1713
+      },
+      {
+        "_path": "site-packages/confection/tests/util.py",
+        "path_type": "hardlink",
+        "sha256": "092521f703a6e4e3007636c33f8bc34f418e747193f118180aaf02521c7548b9",
+        "sha256_in_prefix": "092521f703a6e4e3007636c33f8bc34f418e747193f118180aaf02521c7548b9",
+        "size_in_bytes": 3686
+      },
+      {
+        "_path": "site-packages/confection/util.py",
+        "path_type": "hardlink",
+        "sha256": "d22a211d074380577c79ce7b9a18f8d7303bc2284abd33dc5ca2efec9a0a2dba",
+        "sha256_in_prefix": "d22a211d074380577c79ce7b9a18f8d7303bc2284abd33dc5ca2efec9a0a2dba",
+        "size_in_bytes": 4300
+      },
+      {
+        "_path": "Lib/site-packages/confection/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/confection/tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/confection/tests/__pycache__/conftest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/confection/tests/__pycache__/test_config.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/confection/tests/__pycache__/test_frozen_structures.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/confection/tests/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/confection/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "caeecf2eeb268b64830156d2ab58eb6419514e1f1ab4250d6995a6eccdf8ec7c",
+  "size": 37405,
+  "subdir": "noarch",
+  "timestamp": 1740630763000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/confection-0.1.5-pyhecae5ae_0.conda",
+  "version": "0.1.5"
+}

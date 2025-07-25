@@ -1,0 +1,33 @@
+{
+  "build": "hd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "smart_open 7.1.0 pyhd8ed1ab_0"
+  ],
+  "extracted_package_dir": "C:\\Users\\MI\\anaconda3\\pkgs\\smart-open-7.1.0-hd8ed1ab_0",
+  "files": [],
+  "fn": "smart-open-7.1.0-hd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\MI\\anaconda3\\pkgs\\smart-open-7.1.0-hd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "021f83968041a87ad9f02413267fe97c",
+  "name": "smart-open",
+  "noarch": "generic",
+  "package_tarball_full_path": "C:\\Users\\MI\\anaconda3\\pkgs\\smart-open-7.1.0-hd8ed1ab_0.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9454c120e2c2defb14e24a93f2e97fb203294f3115d8a1a7913429f24145d83c",
+  "size": 7176,
+  "subdir": "noarch",
+  "timestamp": 1734485212000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/smart-open-7.1.0-hd8ed1ab_0.conda",
+  "version": "7.1.0"
+}

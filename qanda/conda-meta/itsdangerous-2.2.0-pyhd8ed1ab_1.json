@@ -1,0 +1,203 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "C:\\Users\\MI\\anaconda3\\pkgs\\itsdangerous-2.2.0-pyhd8ed1ab_1",
+  "files": [
+    "Lib/site-packages/itsdangerous-2.2.0.dist-info/INSTALLER",
+    "Lib/site-packages/itsdangerous-2.2.0.dist-info/LICENSE.txt",
+    "Lib/site-packages/itsdangerous-2.2.0.dist-info/METADATA",
+    "Lib/site-packages/itsdangerous-2.2.0.dist-info/RECORD",
+    "Lib/site-packages/itsdangerous-2.2.0.dist-info/REQUESTED",
+    "Lib/site-packages/itsdangerous-2.2.0.dist-info/WHEEL",
+    "Lib/site-packages/itsdangerous-2.2.0.dist-info/direct_url.json",
+    "Lib/site-packages/itsdangerous/__init__.py",
+    "Lib/site-packages/itsdangerous/_json.py",
+    "Lib/site-packages/itsdangerous/encoding.py",
+    "Lib/site-packages/itsdangerous/exc.py",
+    "Lib/site-packages/itsdangerous/py.typed",
+    "Lib/site-packages/itsdangerous/serializer.py",
+    "Lib/site-packages/itsdangerous/signer.py",
+    "Lib/site-packages/itsdangerous/timed.py",
+    "Lib/site-packages/itsdangerous/url_safe.py",
+    "Lib/site-packages/itsdangerous/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/itsdangerous/__pycache__/_json.cpython-312.pyc",
+    "Lib/site-packages/itsdangerous/__pycache__/encoding.cpython-312.pyc",
+    "Lib/site-packages/itsdangerous/__pycache__/exc.cpython-312.pyc",
+    "Lib/site-packages/itsdangerous/__pycache__/serializer.cpython-312.pyc",
+    "Lib/site-packages/itsdangerous/__pycache__/signer.cpython-312.pyc",
+    "Lib/site-packages/itsdangerous/__pycache__/timed.cpython-312.pyc",
+    "Lib/site-packages/itsdangerous/__pycache__/url_safe.cpython-312.pyc"
+  ],
+  "fn": "itsdangerous-2.2.0-pyhd8ed1ab_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\MI\\anaconda3\\pkgs\\itsdangerous-2.2.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "7ac5f795c15f288984e32add616cdc59",
+  "name": "itsdangerous",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\MI\\anaconda3\\pkgs\\itsdangerous-2.2.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/itsdangerous-2.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/itsdangerous-2.2.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "63af09891b6be8ad1a4252ed43af0f4efba7fc948e228367bed7f3c5ae0b09d7",
+        "sha256_in_prefix": "63af09891b6be8ad1a4252ed43af0f4efba7fc948e228367bed7f3c5ae0b09d7",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "site-packages/itsdangerous-2.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6dff4767cf8d9bdf6c7d7929ecdc2eebb10a04bdb73af3d0f54e8faba2f53fa0",
+        "sha256_in_prefix": "6dff4767cf8d9bdf6c7d7929ecdc2eebb10a04bdb73af3d0f54e8faba2f53fa0",
+        "size_in_bytes": 1924
+      },
+      {
+        "_path": "site-packages/itsdangerous-2.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3cc1f069d71f3a92684be3cee76d0ceef5330d475e56edf2e967b8c4bf6639a4",
+        "sha256_in_prefix": "3cc1f069d71f3a92684be3cee76d0ceef5330d475e56edf2e967b8c4bf6639a4",
+        "size_in_bytes": 1735
+      },
+      {
+        "_path": "site-packages/itsdangerous-2.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/itsdangerous-2.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0a950253178741b44de54191407611268acee407fe432fdf1cc72d710f034862",
+        "sha256_in_prefix": "0a950253178741b44de54191407611268acee407fe432fdf1cc72d710f034862",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/itsdangerous-2.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "82b5e862259f49521595e65c12b68b70a90eb2f0f76de5d324a8811129bd6017",
+        "sha256_in_prefix": "82b5e862259f49521595e65c12b68b70a90eb2f0f76de5d324a8811129bd6017",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/itsdangerous/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e122bbe6c09edbdc5b460404d5942d3079ca52e65801fddb4a964eadf7f52006",
+        "sha256_in_prefix": "e122bbe6c09edbdc5b460404d5942d3079ca52e65801fddb4a964eadf7f52006",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "site-packages/itsdangerous/_json.py",
+        "path_type": "hardlink",
+        "sha256": "c0f4069a07b6c99f77dbc107285ea069d19ec866022502b1b54fa22ca13a5270",
+        "sha256_in_prefix": "c0f4069a07b6c99f77dbc107285ea069d19ec866022502b1b54fa22ca13a5270",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "site-packages/itsdangerous/encoding.py",
+        "path_type": "hardlink",
+        "sha256": "c304f3e6aff7ccb71a01dba793afef4a84adc06a9859edf4ed997f53ceda4453",
+        "sha256_in_prefix": "c304f3e6aff7ccb71a01dba793afef4a84adc06a9859edf4ed997f53ceda4453",
+        "size_in_bytes": 1409
+      },
+      {
+        "_path": "site-packages/itsdangerous/exc.py",
+        "path_type": "hardlink",
+        "sha256": "46bddec68d0c44511c3d996dc1e7322b5e955756c4d8af7f175f9dfa58dc527e",
+        "sha256_in_prefix": "46bddec68d0c44511c3d996dc1e7322b5e955756c4d8af7f175f9dfa58dc527e",
+        "size_in_bytes": 3201
+      },
+      {
+        "_path": "site-packages/itsdangerous/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/itsdangerous/serializer.py",
+        "path_type": "hardlink",
+        "sha256": "3e67700032ea912c902d9d2338a0200ec016e24fc7d13940ef5122df3d02e5a2",
+        "sha256_in_prefix": "3e67700032ea912c902d9d2338a0200ec016e24fc7d13940ef5122df3d02e5a2",
+        "size_in_bytes": 15601
+      },
+      {
+        "_path": "site-packages/itsdangerous/signer.py",
+        "path_type": "hardlink",
+        "sha256": "60ed0257b341bc703a8f9e3d4441c91548d4a23c36a47ab0714a509d4ef23584",
+        "sha256_in_prefix": "60ed0257b341bc703a8f9e3d4441c91548d4a23c36a47ab0714a509d4ef23584",
+        "size_in_bytes": 9647
+      },
+      {
+        "_path": "site-packages/itsdangerous/timed.py",
+        "path_type": "hardlink",
+        "sha256": "e91bc332a36e9863317f4f8796969974df4f51042646fad01a994a871ba2bd4b",
+        "sha256_in_prefix": "e91bc332a36e9863317f4f8796969974df4f51042646fad01a994a871ba2bd4b",
+        "size_in_bytes": 8083
+      },
+      {
+        "_path": "site-packages/itsdangerous/url_safe.py",
+        "path_type": "hardlink",
+        "sha256": "6b3e1ee5f5e2fefb3e61b5a3f186709f8c2254a7de0fef8610a453e547aee0fe",
+        "sha256_in_prefix": "6b3e1ee5f5e2fefb3e61b5a3f186709f8c2254a7de0fef8610a453e547aee0fe",
+        "size_in_bytes": 2505
+      },
+      {
+        "_path": "Lib/site-packages/itsdangerous/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/itsdangerous/__pycache__/_json.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/itsdangerous/__pycache__/encoding.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/itsdangerous/__pycache__/exc.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/itsdangerous/__pycache__/serializer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/itsdangerous/__pycache__/signer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/itsdangerous/__pycache__/timed.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/itsdangerous/__pycache__/url_safe.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1684b7b16eec08efef5302ce298c606b163c18272b69a62b666fbaa61516f170",
+  "size": 19180,
+  "subdir": "noarch",
+  "timestamp": 1733308353000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/itsdangerous-2.2.0-pyhd8ed1ab_1.conda",
+  "version": "2.2.0"
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Launcher Chatbot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f6f8;
+    }
+    .chat-container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      height: 90vh;
+      overflow: hidden;
+    }
+    .chat-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px;
+      background-color: #3792e1;
+      color: white;
+    }
+    .chat-header img {
+      height: 50px;
+    }
+    .chat-messages {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+      background-color: #f9fafc;
+    }
+    .message {
+      max-width: 80%;
+      margin-bottom: 20px;
+      padding: 12px 16px;
+      border-radius: 16px;
+      font-size: 14px;
+      line-height: 1.4;
+      position: relative;
+    }
+    .timestamp {
+      font-size: 10px;
+      color: #888;
+      position: absolute;
+      bottom: -16px;
+      right: 10px;
+    }
+    .user {
+      background-color: #d2eaff;
+      border-bottom-right-radius: 0;
+    }
+    .bot {
+      background-color: #eaeaea;
+      border-bottom-left-radius: 0;
+      margin-left: 40px;
+    }
+    #typingIndicator {
+      font-size: 13px;
+      color: #555;
+      font-style: italic;
+      margin: 10px 20px;
+      display: none;
+      opacity: 0;
+      animation: fadeIn 0.5s ease-in-out forwards;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    .chat-input {
+      display: flex;
+      flex-direction: column;
+      padding: 16px;
+      border-top: 1px solid #ddd;
+      background-color: #fff;
+    }
+    .mode-select {
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    select {
+      padding: 6px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .chat-controls {
+      display: flex;
+      align-items: center;
+    }
+    input[type="text"] {
+      flex: 1;
+      padding: 10px 14px;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      font-size: 14px;
+      outline: none;
+    }
+    button {
+      margin-left: 10px;
+      padding: 10px 14px;
+      background-color: #806200;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #003060;
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <img src="{{ url_for('static', filename='images/cl_logo.png') }}" alt="CL Logo" />
+      <h2>Career Launcher Chatbot</h2>
+    </div>
+    <div class="chat-messages" id="chatMessages"></div>
+    <div id="typingIndicator">CL Chatbot is typing...</div>
+    <div class="chat-input">
+      <div class="mode-select">
+        <label for="category">Category:</label>
+        <select id="category" onchange="populateFiles()">
+          <option value="">-- Select Category --</option>
+          <option value="quant">Quant</option>
+          <option value="varc">VARC</option>
+          <option value="lrdi">LRDI</option>
+        </select>
+      </div>
+      <div class="mode-select">
+        <label for="pdfFile">PDF File:</label>
+        <select id="pdfFile">
+          <option value="">-- Select File --</option>
+        </select>
+      </div>
+      <div class="chat-controls">
+        <input type="text" id="userInput" placeholder="Type your message here..." />
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="startVoiceInput()">🎤</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function populateFiles() {
+      const category = document.getElementById("category").value;
+      const fileSelect = document.getElementById("pdfFile");
+      fileSelect.innerHTML = `<option value="">-- Loading Files --</option>`;
+      const response = await fetch(`/get_files?category=${category}`);
+      const data = await response.json();
+      fileSelect.innerHTML = `<option value="">-- Select File --</option>`;
+      data.files.forEach(f => {
+        const opt = document.createElement("option");
+        opt.value = f;
+        opt.textContent = f;
+        fileSelect.appendChild(opt);
+      });
+    }
+
+   async function sendMessage() {
+     const input = document.getElementById("userInput");
+     const message = input.value.trim();
+     const file = document.getElementById("pdfFile").value;
+     const category = document.getElementById("category").value;
+     const typing = document.getElementById("typingIndicator");
+
+     if (!message || !file || !category) {
+       alert("Please complete all fields.");
+       return;
+     }
+
+     addMessage(message, "user");
+     input.value = "";
+     typing.style.display = "block";
+
+     const response = await fetch("/ask", {
+       method: "POST",
+       headers: { "Content-Type": "application/json" },
+       body: JSON.stringify({ query: message, pdfFile: file, category: category })
+     });
+
+     const data = await response.json();
+     typing.style.display = "none";
+
+     const text = data.answer;
+     let index = 0;
+     const chatBox = document.getElementById("chatMessages");
+     const messageDiv = document.createElement("div");
+     messageDiv.classList.add("message", "bot");
+     const timestamp = document.createElement("div");
+     timestamp.classList.add("timestamp");
+     const now = new Date();
+     timestamp.textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+     messageDiv.appendChild(timestamp);
+     chatBox.appendChild(messageDiv);
+     chatBox.scrollTop = chatBox.scrollHeight;
+
+     const typingInterval = setInterval(() => {
+       if (index < text.length) {
+         messageDiv.innerHTML = text.substring(0, index + 1).replace(/\n/g, "<br>");
+         messageDiv.appendChild(timestamp);
+         chatBox.scrollTop = chatBox.scrollHeight;
+         index++;
+        } else {
+          clearInterval(typingInterval);
+          if (window.MathJax) MathJax.typesetPromise([messageDiv]);
+        }
+     }, 15);
+   }
+
+    function addMessage(text, sender) {
+      const chatBox = document.getElementById("chatMessages");
+      const messageDiv = document.createElement("div");
+      messageDiv.classList.add("message", sender);
+      const timestamp = document.createElement("div");
+      timestamp.classList.add("timestamp");
+      const now = new Date();
+      timestamp.textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+      if (sender === "user") {
+        const wrapper = document.createElement("div");
+        wrapper.style.display = "flex";
+        wrapper.style.alignItems = "center";
+        wrapper.style.gap = "10px";
+        const logo = document.createElement("img");
+        logo.src = "/static/images/cl_logo.png";
+        logo.alt = "CL";
+        logo.style.width = "28px";
+        logo.style.height = "28px";
+        logo.style.borderRadius = "50%";
+        logo.style.border = "1px solid #ccc";
+        logo.style.backgroundColor = "#fff";
+        logo.style.padding = "2px";
+        wrapper.appendChild(logo);
+        messageDiv.innerHTML = text.replace(/\n/g, "<br>");
+        messageDiv.appendChild(timestamp);
+        wrapper.appendChild(messageDiv);
+        chatBox.appendChild(wrapper);
+      } else {
+        messageDiv.innerHTML = text.replace(/\n/g, "<br>");
+        messageDiv.appendChild(timestamp);
+        chatBox.appendChild(messageDiv);
+      }
+
+      chatBox.scrollTop = chatBox.scrollHeight;
+
+      if (window.MathJax) {
+        MathJax.typesetPromise([messageDiv]);
+      }
+    }
+
+    function startVoiceInput() {
+      const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+      recognition.lang = 'en-US';
+      recognition.start();
+      recognition.onresult = function(event) {
+        const transcript = event.results[0][0].transcript;
+        document.getElementById("userInput").value = transcript;
+        sendMessage();
+      };
+      recognition.onerror = function(event) {
+        alert("Voice recognition error: " + event.error);
+      };
+    }
+  </script>
+</body>
+</html>

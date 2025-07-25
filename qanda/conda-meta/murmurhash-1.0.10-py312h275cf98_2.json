@@ -1,0 +1,229 @@
+{
+  "build": "py312h275cf98_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0",
+    "python_abi 3.12.* *_cp312",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\MI\\anaconda3\\pkgs\\murmurhash-1.0.10-py312h275cf98_2",
+  "files": [
+    "Lib/site-packages/murmurhash-1.0.10.dist-info/INSTALLER",
+    "Lib/site-packages/murmurhash-1.0.10.dist-info/LICENSE",
+    "Lib/site-packages/murmurhash-1.0.10.dist-info/METADATA",
+    "Lib/site-packages/murmurhash-1.0.10.dist-info/RECORD",
+    "Lib/site-packages/murmurhash-1.0.10.dist-info/REQUESTED",
+    "Lib/site-packages/murmurhash-1.0.10.dist-info/WHEEL",
+    "Lib/site-packages/murmurhash-1.0.10.dist-info/direct_url.json",
+    "Lib/site-packages/murmurhash-1.0.10.dist-info/top_level.txt",
+    "Lib/site-packages/murmurhash/__init__.pxd",
+    "Lib/site-packages/murmurhash/__init__.py",
+    "Lib/site-packages/murmurhash/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/murmurhash/__pycache__/about.cpython-312.pyc",
+    "Lib/site-packages/murmurhash/about.py",
+    "Lib/site-packages/murmurhash/include/murmurhash/MurmurHash2.h",
+    "Lib/site-packages/murmurhash/include/murmurhash/MurmurHash3.h",
+    "Lib/site-packages/murmurhash/mrmr.cp312-win_amd64.pyd",
+    "Lib/site-packages/murmurhash/mrmr.pxd",
+    "Lib/site-packages/murmurhash/mrmr.pyx",
+    "Lib/site-packages/murmurhash/tests/__init__.py",
+    "Lib/site-packages/murmurhash/tests/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/murmurhash/tests/__pycache__/test_hash.cpython-312.pyc",
+    "Lib/site-packages/murmurhash/tests/__pycache__/test_import.cpython-312.pyc",
+    "Lib/site-packages/murmurhash/tests/test_hash.py",
+    "Lib/site-packages/murmurhash/tests/test_import.py"
+  ],
+  "fn": "murmurhash-1.0.10-py312h275cf98_2.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\MI\\anaconda3\\pkgs\\murmurhash-1.0.10-py312h275cf98_2",
+    "type": 1
+  },
+  "md5": "45ca0de06db94380777f8b6f99ef3b06",
+  "name": "murmurhash",
+  "package_tarball_full_path": "C:\\Users\\MI\\anaconda3\\pkgs\\murmurhash-1.0.10-py312h275cf98_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/murmurhash-1.0.10.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash-1.0.10.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5bab8e8668ce75cd96261a964357a57c7882eee6120858e2938b3fb380b85b4c",
+        "sha256_in_prefix": "5bab8e8668ce75cd96261a964357a57c7882eee6120858e2938b3fb380b85b4c",
+        "size_in_bytes": 1128
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash-1.0.10.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e2f3cab5bc6fea855b50888cbf991f67c86a9c2a2514b45e01e2c7664056a916",
+        "sha256_in_prefix": "e2f3cab5bc6fea855b50888cbf991f67c86a9c2a2514b45e01e2c7664056a916",
+        "size_in_bytes": 1994
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash-1.0.10.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3ae1a2ced1e7b2ae40088af35f982ccc5dba9edb2402b7b41f0ca5bde6eaf7d1",
+        "sha256_in_prefix": "3ae1a2ced1e7b2ae40088af35f982ccc5dba9edb2402b7b41f0ca5bde6eaf7d1",
+        "size_in_bytes": 1905
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash-1.0.10.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash-1.0.10.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "def89d9c3b99f904a71c8c4b84d6c8d6020cf8a83211c307b99bafd6658f77f4",
+        "sha256_in_prefix": "def89d9c3b99f904a71c8c4b84d6c8d6020cf8a83211c307b99bafd6658f77f4",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash-1.0.10.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9e3c80781b1cecc5331297dc7d68ca8262d82fabd73a2c53dcb30588a5bd3f9d",
+        "sha256_in_prefix": "9e3c80781b1cecc5331297dc7d68ca8262d82fabd73a2c53dcb30588a5bd3f9d",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash-1.0.10.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "dfb86f23b0b8676716d753f3b473d00b131faf6e19eea25c30f6810c38f817fb",
+        "sha256_in_prefix": "dfb86f23b0b8676716d753f3b473d00b131faf6e19eea25c30f6810c38f817fb",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "962873cd37e3e7b0f67b76fa99f855ec1066f680b110959c5b756f54b67c54ba",
+        "sha256_in_prefix": "962873cd37e3e7b0f67b76fa99f855ec1066f680b110959c5b756f54b67c54ba",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2b76b2e6c183fc2033e3da89a8cfd71256b0e3e8ef99fe4a329c2f2659ce5a0",
+        "sha256_in_prefix": "f2b76b2e6c183fc2033e3da89a8cfd71256b0e3e8ef99fe4a329c2f2659ce5a0",
+        "size_in_bytes": 653
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/__pycache__/about.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4cca5731ab7d084da7ad5cec343cc32dff9b2f174a5b4b1504d5029a7290aed",
+        "sha256_in_prefix": "e4cca5731ab7d084da7ad5cec343cc32dff9b2f174a5b4b1504d5029a7290aed",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/about.py",
+        "path_type": "hardlink",
+        "sha256": "0c5dfed7c5e223102397322f6f416bf124462abf027fea822ba3f039d81df34b",
+        "sha256_in_prefix": "0c5dfed7c5e223102397322f6f416bf124462abf027fea822ba3f039d81df34b",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/include/murmurhash/MurmurHash2.h",
+        "path_type": "hardlink",
+        "sha256": "7a6d9552214b1415018384e1464bcdc25f3fb72c9c86291ef8bbaa0a2c57a3e3",
+        "sha256_in_prefix": "7a6d9552214b1415018384e1464bcdc25f3fb72c9c86291ef8bbaa0a2c57a3e3",
+        "size_in_bytes": 929
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/include/murmurhash/MurmurHash3.h",
+        "path_type": "hardlink",
+        "sha256": "93cca441e8c16106f4a1f936c2e0bd85a04954f83ef965781e81908967bea6d0",
+        "sha256_in_prefix": "93cca441e8c16106f4a1f936c2e0bd85a04954f83ef965781e81908967bea6d0",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/mrmr.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "3d0de574e98038f5bc9e642e3ed0040e64ad3f5bc23132883b40bef6350b1258",
+        "sha256_in_prefix": "3d0de574e98038f5bc9e642e3ed0040e64ad3f5bc23132883b40bef6350b1258",
+        "size_in_bytes": 40960
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/mrmr.pxd",
+        "path_type": "hardlink",
+        "sha256": "8d6abc1ef3f66f628c679bfe06e0c17ae97be343cf0eaf6a47f8c853cfd07e97",
+        "sha256_in_prefix": "8d6abc1ef3f66f628c679bfe06e0c17ae97be343cf0eaf6a47f8c853cfd07e97",
+        "size_in_bytes": 415
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/mrmr.pyx",
+        "path_type": "hardlink",
+        "sha256": "c548358650cdafa6fc44ceab186985f1311c1412b16cb9701a6b221fe15d8acf",
+        "sha256_in_prefix": "c548358650cdafa6fc44ceab186985f1311c1412b16cb9701a6b221fe15d8acf",
+        "size_in_bytes": 1670
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a83228e46f65695c10a983018a62783a1fec7a958ad07b364d6c083bf499632c",
+        "sha256_in_prefix": "a83228e46f65695c10a983018a62783a1fec7a958ad07b364d6c083bf499632c",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/tests/__pycache__/test_hash.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9da3ed1d8fff89d78ac9e102be7952b5940122aea72a5fcf20be7ae3ea191425",
+        "sha256_in_prefix": "9da3ed1d8fff89d78ac9e102be7952b5940122aea72a5fcf20be7ae3ea191425",
+        "size_in_bytes": 537
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/tests/__pycache__/test_import.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "32c6deb02658e731993d7e7558dea874873292f4c254096e62853268977a3202",
+        "sha256_in_prefix": "32c6deb02658e731993d7e7558dea874873292f4c254096e62853268977a3202",
+        "size_in_bytes": 347
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/tests/test_hash.py",
+        "path_type": "hardlink",
+        "sha256": "495b2f0102e17c5b63b35c17efb85f2d7ca28af7f5fe81cedde04f67f0a72298",
+        "sha256_in_prefix": "495b2f0102e17c5b63b35c17efb85f2d7ca28af7f5fe81cedde04f67f0a72298",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "Lib/site-packages/murmurhash/tests/test_import.py",
+        "path_type": "hardlink",
+        "sha256": "ad6a4b2c95738195091ace8b22a3f784f389bd5014fc239f9f1316e71a49451d",
+        "sha256_in_prefix": "ad6a4b2c95738195091ace8b22a3f784f389bd5014fc239f9f1316e71a49451d",
+        "size_in_bytes": 70
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b12a92d4465503a4d18ceb87d80d941fec65d4162cbfd16aa12c3f1c7dad7863",
+  "size": 31193,
+  "subdir": "win-64",
+  "timestamp": 1728934268000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/murmurhash-1.0.10-py312h275cf98_2.conda",
+  "version": "1.0.10"
+}

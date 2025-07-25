@@ -1,0 +1,280 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "language-data >=1.2",
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "C:\\Users\\MI\\anaconda3\\pkgs\\langcodes-3.4.1-pyhd8ed1ab_1",
+  "files": [
+    "Lib/site-packages/langcodes-3.4.1.dist-info/INSTALLER",
+    "Lib/site-packages/langcodes-3.4.1.dist-info/LICENSE.txt",
+    "Lib/site-packages/langcodes-3.4.1.dist-info/METADATA",
+    "Lib/site-packages/langcodes-3.4.1.dist-info/RECORD",
+    "Lib/site-packages/langcodes-3.4.1.dist-info/REQUESTED",
+    "Lib/site-packages/langcodes-3.4.1.dist-info/WHEEL",
+    "Lib/site-packages/langcodes-3.4.1.dist-info/direct_url.json",
+    "Lib/site-packages/langcodes-3.4.1.dist-info/top_level.txt",
+    "Lib/site-packages/langcodes/__init__.py",
+    "Lib/site-packages/langcodes/build_data.py",
+    "Lib/site-packages/langcodes/data/language-subtag-registry.txt",
+    "Lib/site-packages/langcodes/data_dicts.py",
+    "Lib/site-packages/langcodes/language_distance.py",
+    "Lib/site-packages/langcodes/language_lists.py",
+    "Lib/site-packages/langcodes/py.typed",
+    "Lib/site-packages/langcodes/registry_parser.py",
+    "Lib/site-packages/langcodes/tag_parser.py",
+    "Lib/site-packages/langcodes/tests/README.md",
+    "Lib/site-packages/langcodes/tests/test_alpha3.py",
+    "Lib/site-packages/langcodes/tests/test_language.py",
+    "Lib/site-packages/langcodes/tests/test_language_data.py",
+    "Lib/site-packages/langcodes/tests/test_wikt_languages.py",
+    "Lib/site-packages/langcodes/util.py",
+    "Lib/site-packages/langcodes/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/langcodes/__pycache__/build_data.cpython-312.pyc",
+    "Lib/site-packages/langcodes/__pycache__/data_dicts.cpython-312.pyc",
+    "Lib/site-packages/langcodes/__pycache__/language_distance.cpython-312.pyc",
+    "Lib/site-packages/langcodes/__pycache__/language_lists.cpython-312.pyc",
+    "Lib/site-packages/langcodes/__pycache__/registry_parser.cpython-312.pyc",
+    "Lib/site-packages/langcodes/__pycache__/tag_parser.cpython-312.pyc",
+    "Lib/site-packages/langcodes/tests/__pycache__/test_alpha3.cpython-312.pyc",
+    "Lib/site-packages/langcodes/tests/__pycache__/test_language.cpython-312.pyc",
+    "Lib/site-packages/langcodes/tests/__pycache__/test_language_data.cpython-312.pyc",
+    "Lib/site-packages/langcodes/tests/__pycache__/test_wikt_languages.cpython-312.pyc",
+    "Lib/site-packages/langcodes/__pycache__/util.cpython-312.pyc"
+  ],
+  "fn": "langcodes-3.4.1-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\MI\\anaconda3\\pkgs\\langcodes-3.4.1-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "50727f5554dc6436399c9c1760263acc",
+  "name": "langcodes",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\MI\\anaconda3\\pkgs\\langcodes-3.4.1-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/langcodes-3.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/langcodes-3.4.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a0cceca169e5eed22f00f4c001c3851026e56cb60632904548889eb79a3c226d",
+        "sha256_in_prefix": "a0cceca169e5eed22f00f4c001c3851026e56cb60632904548889eb79a3c226d",
+        "size_in_bytes": 1090
+      },
+      {
+        "_path": "site-packages/langcodes-3.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b710079d5a4f166beb0a9dbad64e9d5e766e6fb9b99d66b84d30f1e106ce85ac",
+        "sha256_in_prefix": "b710079d5a4f166beb0a9dbad64e9d5e766e6fb9b99d66b84d30f1e106ce85ac",
+        "size_in_bytes": 29950
+      },
+      {
+        "_path": "site-packages/langcodes-3.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c49fc127b747db6bb5278145862ad889a53e1e7d618421371aa9f967d890b4da",
+        "sha256_in_prefix": "c49fc127b747db6bb5278145862ad889a53e1e7d618421371aa9f967d890b4da",
+        "size_in_bytes": 2632
+      },
+      {
+        "_path": "site-packages/langcodes-3.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/langcodes-3.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/langcodes-3.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6492733f0240c3b89838a0a44c814babbeee409a101405b9b42f97d11bfcfd8a",
+        "sha256_in_prefix": "6492733f0240c3b89838a0a44c814babbeee409a101405b9b42f97d11bfcfd8a",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/langcodes-3.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fea4847d2ee4c6758428634e9ad4517649c7eac4270e8e7219db1d00581c11f3",
+        "sha256_in_prefix": "fea4847d2ee4c6758428634e9ad4517649c7eac4270e8e7219db1d00581c11f3",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/langcodes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "28afca3f1d7da68014a026192df36af6219d6294d3eae2c97343e75080fa7b2a",
+        "sha256_in_prefix": "28afca3f1d7da68014a026192df36af6219d6294d3eae2c97343e75080fa7b2a",
+        "size_in_bytes": 69509
+      },
+      {
+        "_path": "site-packages/langcodes/build_data.py",
+        "path_type": "hardlink",
+        "sha256": "3f95e5a044282a0372014ab7e9d860fee11c11dd08e318e079cb3e7e1b7ea276",
+        "sha256_in_prefix": "3f95e5a044282a0372014ab7e9d860fee11c11dd08e318e079cb3e7e1b7ea276",
+        "size_in_bytes": 10120
+      },
+      {
+        "_path": "site-packages/langcodes/data/language-subtag-registry.txt",
+        "path_type": "hardlink",
+        "sha256": "c7b8078016e99de39bf5e758a376d54ac51bccb3c4e0d89502d2b11cb19070ce",
+        "sha256_in_prefix": "c7b8078016e99de39bf5e758a376d54ac51bccb3c4e0d89502d2b11cb19070ce",
+        "size_in_bytes": 715867
+      },
+      {
+        "_path": "site-packages/langcodes/data_dicts.py",
+        "path_type": "hardlink",
+        "sha256": "f0058d862155868728592920b816378c4b7237f28e6c4dbab779e02945df9f5a",
+        "sha256_in_prefix": "f0058d862155868728592920b816378c4b7237f28e6c4dbab779e02945df9f5a",
+        "size_in_bytes": 113788
+      },
+      {
+        "_path": "site-packages/langcodes/language_distance.py",
+        "path_type": "hardlink",
+        "sha256": "ae9bd4fa0945227fb01f15baf760af16cb737dd585233afee86857f73bd719cd",
+        "sha256_in_prefix": "ae9bd4fa0945227fb01f15baf760af16cb737dd585233afee86857f73bd719cd",
+        "size_in_bytes": 5751
+      },
+      {
+        "_path": "site-packages/langcodes/language_lists.py",
+        "path_type": "hardlink",
+        "sha256": "a47dfde7e202966c4be88f2e2848fb354dd17acaecaa9b427b3c0f59e28c3f51",
+        "sha256_in_prefix": "a47dfde7e202966c4be88f2e2848fb354dd17acaecaa9b427b3c0f59e28c3f51",
+        "size_in_bytes": 8668
+      },
+      {
+        "_path": "site-packages/langcodes/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/langcodes/registry_parser.py",
+        "path_type": "hardlink",
+        "sha256": "7ff6caa97a0f28321a2f1a52eaabe088fbed7f36591faa4c38d3b0d63c9c98f7",
+        "sha256_in_prefix": "7ff6caa97a0f28321a2f1a52eaabe088fbed7f36591faa4c38d3b0d63c9c98f7",
+        "size_in_bytes": 1785
+      },
+      {
+        "_path": "site-packages/langcodes/tag_parser.py",
+        "path_type": "hardlink",
+        "sha256": "75acc6e38e0f779442dad6f4c6db5ab913fc74dbad095f016b7e8f522c6bba56",
+        "sha256_in_prefix": "75acc6e38e0f779442dad6f4c6db5ab913fc74dbad095f016b7e8f522c6bba56",
+        "size_in_bytes": 14283
+      },
+      {
+        "_path": "site-packages/langcodes/tests/README.md",
+        "path_type": "hardlink",
+        "sha256": "9cbb997a2a481cd614786e72955ee3225a350d9eed206544c3aa6b75c58c369d",
+        "sha256_in_prefix": "9cbb997a2a481cd614786e72955ee3225a350d9eed206544c3aa6b75c58c369d",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "site-packages/langcodes/tests/test_alpha3.py",
+        "path_type": "hardlink",
+        "sha256": "28b7fedf4e18eb4c2c2ca721a1a8ae671433b109d7b26629f5e1966511a953af",
+        "sha256_in_prefix": "28b7fedf4e18eb4c2c2ca721a1a8ae671433b109d7b26629f5e1966511a953af",
+        "size_in_bytes": 797
+      },
+      {
+        "_path": "site-packages/langcodes/tests/test_language.py",
+        "path_type": "hardlink",
+        "sha256": "e06650b974d31900327f920b1c3f50067675262cc7ee61605e48b0bc328e6bf8",
+        "sha256_in_prefix": "e06650b974d31900327f920b1c3f50067675262cc7ee61605e48b0bc328e6bf8",
+        "size_in_bytes": 387
+      },
+      {
+        "_path": "site-packages/langcodes/tests/test_language_data.py",
+        "path_type": "hardlink",
+        "sha256": "2fbd5a9409a1361090151cc6c2208209e18305406340cd33c549dc76c5102d75",
+        "sha256_in_prefix": "2fbd5a9409a1361090151cc6c2208209e18305406340cd33c549dc76c5102d75",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "site-packages/langcodes/tests/test_wikt_languages.py",
+        "path_type": "hardlink",
+        "sha256": "45acb6efa1ff693c4ba0391ddd600cf23626aacf236d3a81404f93004066ad9c",
+        "sha256_in_prefix": "45acb6efa1ff693c4ba0391ddd600cf23626aacf236d3a81404f93004066ad9c",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "site-packages/langcodes/util.py",
+        "path_type": "hardlink",
+        "sha256": "069614b6e3f9ad01043467942a1c86d53111731d36f162941b01bff0a98e2ecc",
+        "sha256_in_prefix": "069614b6e3f9ad01043467942a1c86d53111731d36f162941b01bff0a98e2ecc",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "Lib/site-packages/langcodes/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langcodes/__pycache__/build_data.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langcodes/__pycache__/data_dicts.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langcodes/__pycache__/language_distance.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langcodes/__pycache__/language_lists.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langcodes/__pycache__/registry_parser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langcodes/__pycache__/tag_parser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langcodes/tests/__pycache__/test_alpha3.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langcodes/tests/__pycache__/test_language.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langcodes/tests/__pycache__/test_language_data.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langcodes/tests/__pycache__/test_wikt_languages.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langcodes/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "09dabbe71c333b2a89dd31eb167afc75d23019414fbaf8f24a011072ac5e97ab",
+  "size": 155393,
+  "subdir": "noarch",
+  "timestamp": 1734376571000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/langcodes-3.4.1-pyhd8ed1ab_1.conda",
+  "version": "3.4.1"
+}

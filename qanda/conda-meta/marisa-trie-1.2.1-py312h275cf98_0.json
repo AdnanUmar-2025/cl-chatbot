@@ -1,0 +1,117 @@
+{
+  "build": "py312h275cf98_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0",
+    "python_abi 3.12.* *_cp312",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\MI\\anaconda3\\pkgs\\marisa-trie-1.2.1-py312h275cf98_0",
+  "files": [
+    "Lib/site-packages/marisa_trie-1.2.1.dist-info/AUTHORS.rst",
+    "Lib/site-packages/marisa_trie-1.2.1.dist-info/INSTALLER",
+    "Lib/site-packages/marisa_trie-1.2.1.dist-info/LICENSE",
+    "Lib/site-packages/marisa_trie-1.2.1.dist-info/METADATA",
+    "Lib/site-packages/marisa_trie-1.2.1.dist-info/RECORD",
+    "Lib/site-packages/marisa_trie-1.2.1.dist-info/REQUESTED",
+    "Lib/site-packages/marisa_trie-1.2.1.dist-info/WHEEL",
+    "Lib/site-packages/marisa_trie-1.2.1.dist-info/direct_url.json",
+    "Lib/site-packages/marisa_trie-1.2.1.dist-info/top_level.txt",
+    "Lib/site-packages/marisa_trie.cp312-win_amd64.pyd"
+  ],
+  "fn": "marisa-trie-1.2.1-py312h275cf98_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\MI\\anaconda3\\pkgs\\marisa-trie-1.2.1-py312h275cf98_0",
+    "type": 1
+  },
+  "md5": "8f26ab1fab4d64b62348da2b9da13a00",
+  "name": "marisa-trie",
+  "package_tarball_full_path": "C:\\Users\\MI\\anaconda3\\pkgs\\marisa-trie-1.2.1-py312h275cf98_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/marisa_trie-1.2.1.dist-info/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "6b0909e1df399f04c23dce79e33fd25c70c2ed42a7bbba46f2460076dcabcbe4",
+        "sha256_in_prefix": "6b0909e1df399f04c23dce79e33fd25c70c2ed42a7bbba46f2460076dcabcbe4",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "Lib/site-packages/marisa_trie-1.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/marisa_trie-1.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b9613671d16d585b4d240566b9efa78707b3c9702ce8fa17f990f2c46185c64c",
+        "sha256_in_prefix": "b9613671d16d585b4d240566b9efa78707b3c9702ce8fa17f990f2c46185c64c",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "Lib/site-packages/marisa_trie-1.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6ddb2d0724bc916771f53742b38fd49e7b9e74094b5020fd0cb6caf2ccda9e9b",
+        "sha256_in_prefix": "6ddb2d0724bc916771f53742b38fd49e7b9e74094b5020fd0cb6caf2ccda9e9b",
+        "size_in_bytes": 9265
+      },
+      {
+        "_path": "Lib/site-packages/marisa_trie-1.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0bd903fbdb9a4f50c0dfc558e781aab47ad7cfa5e274449462b9226cd332e025",
+        "sha256_in_prefix": "0bd903fbdb9a4f50c0dfc558e781aab47ad7cfa5e274449462b9226cd332e025",
+        "size_in_bytes": 882
+      },
+      {
+        "_path": "Lib/site-packages/marisa_trie-1.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/marisa_trie-1.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a565eb25b9d9487f89f8f85898ab365cd9f80c708f34162af7ae6fb0124116f0",
+        "sha256_in_prefix": "a565eb25b9d9487f89f8f85898ab365cd9f80c708f34162af7ae6fb0124116f0",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "Lib/site-packages/marisa_trie-1.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6e396ae6435223bf493cb8b083e3a0245f3de9136764d9693c2c5002a2011058",
+        "sha256_in_prefix": "6e396ae6435223bf493cb8b083e3a0245f3de9136764d9693c2c5002a2011058",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "Lib/site-packages/marisa_trie-1.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "988c70a7d7af5b01b067d271c51902191c514c4d4c43b96529ac6a501ccedb02",
+        "sha256_in_prefix": "988c70a7d7af5b01b067d271c51902191c514c4d4c43b96529ac6a501ccedb02",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "Lib/site-packages/marisa_trie.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "e43da7effaf021982513a601234c6b0d9345216554d87f4d944ea0f6130113e0",
+        "sha256_in_prefix": "e43da7effaf021982513a601234c6b0d9345216554d87f4d944ea0f6130113e0",
+        "size_in_bytes": 365056
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7af12cbe21d3b3b3da1fc5fe78ad7019bd30e7a5ceda43f2e9b26c404e038508",
+  "size": 135252,
+  "subdir": "win-64",
+  "timestamp": 1736179666000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/marisa-trie-1.2.1-py312h275cf98_0.conda",
+  "version": "1.2.1"
+}
